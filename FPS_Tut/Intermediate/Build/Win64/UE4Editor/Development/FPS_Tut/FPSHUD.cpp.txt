@@ -1,8 +1,0 @@
-C:\UE4Internship\FPS_Tut\Intermediate\Build\Win64\UE4Editor\Development\FPS_Tut\Definitions.FPS_Tut.h
-c:\ue4internship\fps_tut\source\fps_tut\FPSHUD.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\UE4Internship\FPS_Tut\Intermediate\Build\Win64\UE4Editor\Inc\FPS_Tut\FPSHUD.generated.h
