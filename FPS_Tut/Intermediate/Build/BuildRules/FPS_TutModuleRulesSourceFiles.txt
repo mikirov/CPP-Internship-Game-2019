@@ -1,0 +1,3 @@
+C:\UE4Internship\FPS_Tut\Source\FPS_Tut\FPS_Tut.Build.cs
+C:\UE4Internship\FPS_Tut\Source\FPS_Tut.Target.cs
+C:\UE4Internship\FPS_Tut\Source\FPS_TutEditor.Target.cs

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FPS_Tut.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D34457BF-C479-42B9-9715-BB258277C060}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPS_Tut.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPS_TutEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A02FA0AB-1254-4735-92A5-3168BA58B2CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FPS_Tut">
+      <UniqueIdentifier>{60783D20-B7A9-47AE-AA3A-EF815EBBD576}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPS_Tut\FPS_Tut.Build.cs">
+      <Filter>Source\FPS_Tut</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPS_Tut\FPS_Tut.cpp">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS_Tut\FPS_Tut.h">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS_Tut\FPS_TutGameModeBase.cpp">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS_Tut\FPS_TutGameModeBase.h">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FPS_Tut\DebugHelpers.h">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS_Tut\FPSCharacter.h">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS_Tut\FPSProjectile.h">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS_Tut\FPSHUD.h">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FPS_Tut\DebugHelpers.cpp">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS_Tut\FPSCharacter.cpp">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS_Tut\FPSProjectile.cpp">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS_Tut\FPSHUD.cpp">
+      <Filter>Source\FPS_Tut</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

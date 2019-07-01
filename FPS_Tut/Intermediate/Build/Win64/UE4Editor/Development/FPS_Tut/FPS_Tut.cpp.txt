@@ -1,0 +1,2 @@
+C:\UE4Internship\FPS_Tut\Intermediate\Build\Win64\UE4Editor\Development\FPS_Tut\Definitions.FPS_Tut.h
+c:\ue4internship\fps_tut\source\fps_tut\FPS_Tut.h
