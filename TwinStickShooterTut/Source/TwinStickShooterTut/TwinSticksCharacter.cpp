@@ -46,5 +46,9 @@ bool ATwinSticksCharacter::IsDead() {
 }
 
 void ATwinSticksCharacter::TakeDamage(float Damage) {
+	UE_LOG(LogTemp, Warning, TEXT("Damage %s by %f"), *GetName(), Damage);
 	Health -= Damage;
+	if (IsDead()) {
+		Destroy();
+	}
 }
