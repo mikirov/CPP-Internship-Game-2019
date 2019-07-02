@@ -23,4 +23,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	AActor* ActorToFollow = nullptr;
+
+public:
+	virtual void Tick(float DeltaTime) override;
 };
