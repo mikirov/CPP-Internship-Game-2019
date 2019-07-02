@@ -1,0 +1,3 @@
+C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\Definitions.Collisions.h
+C:\Repos\KipiPractice\Collisions\Source\Collisions\MyPawnMovementComponent.h
+C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Inc\Collisions\MyPawnMovementComponent.generated.h

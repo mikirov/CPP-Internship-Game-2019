@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Collisions-9122.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\CollisionsEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\CollidingPawn.cpp.obj"
+"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\Collisions.cpp.obj"
+"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\CollidingPawn.gen.cpp.obj"
+"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\Collisions.init.gen.cpp.obj"
+"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\Default.rc2.res"
+/OUT:"C:\Repos\KipiPractice\Collisions\Intermediate\Build\Win64\UE4Editor\Development\Collisions\UE4Editor-Collisions-9122.lib"
+/INCLUDE:IMPLEMENT_MODULE_Collisions

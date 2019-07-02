@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Collisions.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{83009EAD-699F-449E-AB7C-80D6DCF769ED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Collisions.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CollisionsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AEAE7AE9-66CE-4B86-9AB0-1A619788F36C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Collisions">
+      <UniqueIdentifier>{234BFB58-6E10-4029-A222-CB7030C5190B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Collisions\CollidingPawn.cpp">
+      <Filter>Source\Collisions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Collisions\CollidingPawn.h">
+      <Filter>Source\Collisions</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Collisions\Collisions.Build.cs">
+      <Filter>Source\Collisions</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Collisions\Collisions.cpp">
+      <Filter>Source\Collisions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Collisions\Collisions.h">
+      <Filter>Source\Collisions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Collisions\MyMovementComponent.h">
+      <Filter>Source\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Collisions\MyPawnMovementComponent.h">
+      <Filter>Source\Collisions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Collisions\MyMovementComponent.cpp">
+      <Filter>Source\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collisions\MyPawnMovementComponent.cpp">
+      <Filter>Source\Collisions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
