@@ -31,7 +31,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
 	USceneComponent* GunFirePosition;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+	UPROPERTY(EditDefaultsOnly, Category = Gun)
 	float FireUpForce;
 
 public:	
