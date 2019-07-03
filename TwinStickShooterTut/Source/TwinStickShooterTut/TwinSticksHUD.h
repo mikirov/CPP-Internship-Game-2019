@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-#include "BaseHUD.generated.h"
+#include "TwinSticksHUD.generated.h"
 
 /**
  * 
  */
-UCLASS(Blueprintable)
-class TWINSTICKSHOOTERTUT_API ABaseHUD : public AHUD
+UCLASS()
+class TWINSTICKSHOOTERTUT_API ATwinSticksHUD : public AHUD
 {
 	GENERATED_BODY()
 	
