@@ -35,8 +35,10 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Base Character")
 	bool bDead = false;
 
+	/*
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gun")
 	AGun* Gun = nullptr;
+	*/
 
 public:	
 	// Called every frame
@@ -45,6 +47,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	/*
 private:
 	void FireGun();
+	*/
 };

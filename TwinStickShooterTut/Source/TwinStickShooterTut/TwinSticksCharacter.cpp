@@ -31,15 +31,17 @@ void ATwinSticksCharacter::Tick(float DeltaTime)
 void ATwinSticksCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinSticksCharacter::FireGun);
+	
+	// PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinSticksCharacter::FireGun);
 
 }
 
+/*
 void ATwinSticksCharacter::FireGun() {
 	checkf(Gun != nullptr, TEXT("TwinSticksCharacter needs a reference to a gun!"))
 	Gun->Fire();
 }
+*/
 
 bool ATwinSticksCharacter::IsDead() {
 	return Health <= 0 ? true : false;
@@ -49,6 +51,6 @@ void ATwinSticksCharacter::TakeDamage(float Damage) {
 	UE_LOG(LogTemp, Warning, TEXT("Damage %s by %f"), *GetName(), Damage);
 	Health -= Damage;
 	if (IsDead()) {
-		Destroy();
+		bDead = true;
 	}
 }

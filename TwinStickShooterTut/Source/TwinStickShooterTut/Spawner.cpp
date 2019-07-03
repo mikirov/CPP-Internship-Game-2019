@@ -23,10 +23,12 @@ void ASpawner::Tick(float DeltaTime) {
 
 
 void ASpawner::SpawnEnemy() {
+	/*
 	FVector Position = FVector(0, 0, 100);
 	GetWorld()->SpawnActor<ATwinSticksCharacter>(
 		CharacterTemplate,
 		Position,
 		FRotator(0, 0, 0)
 	);
+	*/
 }

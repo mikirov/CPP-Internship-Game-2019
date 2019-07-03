@@ -13,20 +13,14 @@ AEnemyAIController::AEnemyAIController() {
 
 void AEnemyAIController::BeginPlay() {
 	Super::BeginPlay();
+	/*
 	ActorToFollow = GetWorld()->GetFirstPlayerController()->GetPawn();
 	MoveToActor(ActorToFollow);
-
+	*/
 }
 
 
 void AEnemyAIController::Tick(float DeltaTime) {
-	if (!ActorToFollow) {
-		UE_LOG(LogTemp, Error, TEXT("AI could not find a player!"));
-	}
-	else
-	{
-		MoveToActor(ActorToFollow);
-		UE_LOG(LogTemp, Warning, TEXT("AI Following %s"), *ActorToFollow->GetName());
-	}
+	Super::Tick(DeltaTime);
 }
 
